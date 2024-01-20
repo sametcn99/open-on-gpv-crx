@@ -15,6 +15,8 @@ chrome.action.onClicked.addListener(async (tab) => {
     // Check if URL is a Gist URL
     else if (isGistURL(tab.url)) {
         username = getGistUsername(tab.url);
+    } else if (isGitLabURL(tab.url)) {
+        username = getGitLabUsername(tab.url);
     }
 
     if (!username) {
@@ -61,5 +63,14 @@ function getGitHubUsername(url) {
 */
 function getGistUsername(url) {
     const matches = url.match(/gist\.github\.com\/([^/]+)\//);
+    return matches?.[1];
+}
+
+function isGitLabURL(url) {
+    return /^https?:\/\/gitlab\.com\/.+/.test(url);
+}
+
+function getGitLabUsername(url) {
+    const matches = url.match(/gitlab\.com\/([^/]+)\/?/);
     return matches?.[1];
 }

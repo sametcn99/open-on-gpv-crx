@@ -28,7 +28,7 @@ This Chrome extension allows you to easily open a GitHub Profile on [Github Prof
 
 ## How to Use
 
-1. Navigate to any GitHub or Gist profile page (e.g. `https://github.com/username/*` , `https://gist.github.com/username/*`).
+1. Navigate to any GitHub or Gist profile page (e.g. `https://github.com/username/*` , `https://gist.github.com/username/*`, `https://gitlab.com/username/*`).
 
 2. Click on the extension icon in the toolbar.
 

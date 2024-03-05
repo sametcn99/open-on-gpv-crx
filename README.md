@@ -33,7 +33,7 @@ Install the GPV extension to enhance your experience on Github, Gists, and GitLa
 
 2. Click on the extension icon in the toolbar.
 
-3. The profile will be opened in  [Github Profile Viewer](https://next-github-profile-viewer.vercel.app) in a new tab.
+3. The profile will be opened in  [Github Profile Viewer](https://githubprofileviewer.com) in a new tab.
 
 ## Features
 

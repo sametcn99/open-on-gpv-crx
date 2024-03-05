@@ -24,7 +24,7 @@ chrome.action.onClicked.addListener(async (tab) => {
         return;
     }
 
-    const gpvURL = `https://next-github-profile-viewer.vercel.app/${username}`;
+    const gpvURL = `https://githubprofileviewer.com/${username}`;
     await chrome.tabs.create({ url: gpvURL });
     console.log("Redirected to GPV");
 
